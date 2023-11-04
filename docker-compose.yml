@@ -23,6 +23,7 @@ services:
     working_dir: /app
     networks:
       - app
+      - mm23_freqtrade
 
   cron:
     build:
@@ -33,6 +34,7 @@ services:
     restart: "unless-stopped"
     networks:
       - app
+      - mm23_freqtrade
 
   mongo:
     image: mongo
@@ -50,3 +52,7 @@ services:
 networks:
   app:
     driver: bridge
+
+  mm23_freqtrade:
+    driver: overlay
+    external: true
