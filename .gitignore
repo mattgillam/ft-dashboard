@@ -4,4 +4,6 @@ bots.json
 .env
 composer.lock
 .DS_Store
-.DS_Store
+stashdash.xcworkspace/contents.xcworkspacedata
+stashdash.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+stashdash.xcworkspace/xcuserdata/matt.xcuserdatad/UserInterfaceState.xcuserstate
