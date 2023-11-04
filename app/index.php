@@ -67,7 +67,7 @@ $data_others = $collection->findOne(['_id' => 'others']);
         		<div>
     	    		<canvas id="chart1"></canvas>
     	    	</div>
-    	    	<div class="d-flex flex-column">
+<!--    	    	<div class="d-flex flex-column">
     				<div>How to use</div>
                     <ul>
         	        	<li>When all data are shown, clicking on a legend above gonna hide all other data</li>
@@ -76,7 +76,7 @@ $data_others = $collection->findOne(['_id' => 'others']);
         	        	<li>Since the bots trades at different time, some comparison might not look good</li>	
                     </ul>
     			</div>
-            </div>
+            </div> -->
             <div class="d-block d-md-none mb-3">
                 <div class="d-flex justify-content-center">
                     <em>Combined profit chart is hidden on small screen. To view it, open this page on your tablet or PC.</em>
