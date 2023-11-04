@@ -3,3 +3,5 @@ mongodb
 bots.json
 .env
 composer.lock
+.DS_Store
+.DS_Store
